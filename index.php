@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="style.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -27,7 +28,6 @@
         </ul>
     </div>
 </nav>
-
 <div class="bgimg-1">
   <div class="caption">
   <span class="border">SCROLL DOWN</span>
