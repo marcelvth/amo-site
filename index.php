@@ -1,22 +1,76 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-  background-position: center;
-    <link rel="stylesheet" href="./style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>AMO-Site</title>   
+<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-
-    <div class="parallax"></div>
-
-    <div style="height:1000px;background-color:red;font-size:36px">
-    Scroll Up and Down this page to see the parallax scrolling effect.
-    This div is just here to enable scrolling.
-    Tip: Try to remove the background-attachment property to remove the scrolling effect.
+<nav class="navbar navbar-default" role="navigation">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>    
     </div>
+    <a class="navbar-brand navbar-center" href="#">
+        <img src="http://placehold.it/100x40" alt="Logo Here">
+    </a>
+    <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-left">
+            <li><a href="#itemonelink">Item One</a></li>
+            <li><a href="#itemtwolink">Item Two</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#signuplink">Signup</a></li>
+            <li><a href="#loginlink">Login</a></li>
+        </ul>
+    </div>
+</nav>
 
-    <div class="parallax"></div>
+<div class="bgimg-1">
+  <div class="caption">
+  <span class="border">SCROLL DOWN</span>
+  </div>
+</div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">Parallax Demo</h3>
+  <p>Parallax scrolling is a web site trend where the background content is moved at a different speed than the foreground content while scrolling. Nascetur per nec posuere turpis, lectus nec libero turpis nunc at, sed posuere mollis ullamcorper libero ante lectus, blandit pellentesque a, magna turpis est sapien duis blandit dignissim. Viverra interdum mi magna mi, morbi sociis. Condimentum dui ipsum consequat morbi, curabitur aliquam pede, nullam vitae eu placerat eget et vehicula. Varius quisque non molestie dolor, nunc nisl dapibus vestibulum at, sodales tincidunt mauris ullamcorper, dapibus pulvinar, in in neque risus odio. Accumsan fringilla vulputate at quibusdam sociis eleifend, aenean maecenas vulputate, non id vehicula lorem mattis, ratione interdum sociis ornare. Suscipit proin magna cras vel, non sit platea sit, maecenas ante augue etiam maecenas, porta porttitor placerat leo.</p>
+</div>
+
+<div class="bgimg-2">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">LESS HEIGHT</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+  </div>
+</div>
+
+<div class="bgimg-3">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">SCROLL UP</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+  </div>
+</div>
+
+<div class="bgimg-1">
+  <div class="caption">
+  <span class="border">COOL!</span>
+  </div>
+</div>
 
 </body>
 </html>
+
+
+
