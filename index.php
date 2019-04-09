@@ -18,7 +18,7 @@
     </a>
     <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-left">
-            <li><a href="#itemonelink">Item One</a></li>
+            <li><a href="./index.php">Home</a></li>
             <li><a href="#itemtwolink">Item Two</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
