@@ -1,6 +1,6 @@
 <?php
 
-require_once('includes/connection.php');
+require_once('php/connection.php');
 
 $email = $password = $pwd = '';
 
@@ -10,7 +10,7 @@ $pwd = $_POST['password'];
 
 $password = MD5($pwd);
 
-$sql = "SELECT Naam, Mail, Klantnummer FROM klant WHERE Mail='$email' AND Wachtwoord='$password'";
+$sql = "SELECT Naam, Mail FROM WHERE Mail='$email' AND Wachtwoord='$password'";
 
 $result = mysqli_query($conn, $sql);
 
